@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "650852442491",
+    "project_id": "progressivenotes-89927",
+    "storage_bucket": "progressivenotes-89927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650852442491:android:ff5759ea4a42b7308e1dde",
+        "android_client_info": {
+          "package_name": "com.example.navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650852442491-r80i0aeg7b0cumtec8hin4l13071t08o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtlWg6wfwkw0oBH2djoQZIoIiuusI2uvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650852442491-r80i0aeg7b0cumtec8hin4l13071t08o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
