@@ -16,7 +16,7 @@ class AuthorizationFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentAuthorizationBinding.inflate(inflater, container, false   )
+        binding = FragmentAuthorizationBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -28,7 +28,7 @@ class AuthorizationFragment : Fragment() {
         }
 
         binding.btnSignIn.setOnClickListener {
-
+            findNavController().navigate(R.id.action_authorizationFragment_to_main_nav_graph)
         }
 
         binding.btnForgotPass.setOnClickListener {
