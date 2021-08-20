@@ -1,4 +1,4 @@
-package com.example.progressivenotes.mainfragments
+package com.example.progressivenotes.main.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

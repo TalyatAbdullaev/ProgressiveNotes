@@ -1,4 +1,4 @@
-package com.example.progressivenotes
+package com.example.progressivenotes.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

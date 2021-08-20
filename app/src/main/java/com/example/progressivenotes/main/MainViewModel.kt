@@ -1,4 +1,4 @@
-package com.example.progressivenotes
+package com.example.progressivenotes.main
 
 import androidx.lifecycle.LiveData
 import com.example.progressivenotes.database.room.Note

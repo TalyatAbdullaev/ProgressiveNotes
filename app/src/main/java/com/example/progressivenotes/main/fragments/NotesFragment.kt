@@ -1,21 +1,21 @@
-package com.example.progressivenotes.authorizationfragments
+package com.example.progressivenotes.main.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.progressivenotes.databinding.FragmentSignUpBinding
+import com.example.progressivenotes.databinding.FragmentNotesBinding
 
-class SignUpFragment : Fragment() {
+class NotesFragment : Fragment() {
 
-    lateinit var binding: FragmentSignUpBinding
+    private lateinit var binding: FragmentNotesBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentSignUpBinding.inflate(inflater, container, false)
+        binding = FragmentNotesBinding.inflate(inflater, container, false)
         return binding.root
     }
 }

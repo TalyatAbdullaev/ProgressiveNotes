@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav_graph"
-    app:startDestination="@id/mainActivity">
+    app:startDestination="@id/authorizationActivity">
 
     <fragment
         android:id="@+id/notesFragment"
@@ -21,8 +21,13 @@
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings"/>
     <activity
+        android:id="@+id/authorizationActivity"
+        android:name="com.example.progressivenotes.authorization.AuthorizationActivity"
+        android:label="activity_authoriztion"
+        tools:layout="@layout/activity_authoriztion" />
+    <activity
         android:id="@+id/mainActivity"
-        android:name="com.example.progressivenotes.MainActivity"
+        android:name="com.example.progressivenotes.main.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
 </navigation>
