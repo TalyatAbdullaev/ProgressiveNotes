@@ -21,5 +21,5 @@ abstract class NoteDatabase : RoomDatabase() {
         }
     }
 
-    abstract fun NoteDao(): NoteDao
+    abstract fun noteDao(): NoteDao
 }

@@ -20,6 +20,12 @@ class NotesFragment : Fragment() {
         binding = FragmentNotesBinding.inflate(inflater, container, false)
         return binding.root
 
+
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
         binding.btnAddNote.setOnClickListener {
             findNavController().navigate(R.id.addNoteFragment)
         }
